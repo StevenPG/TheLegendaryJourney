@@ -1,9 +1,25 @@
 # TheLegendaryJourney
 A procedurally generated adventure where you try to get the highest score possible, with characters inspired by our house cats!
 
+## Game Implementation
+
+The game is implemented in the `game` directory as a 2D platformer using Phaser 3, TypeScript, and Vite. See the [game README](game/README.md) for details on how to run and build the game.
+
+### Features
+
+- 2D platformer mechanics with physics and collision detection
+- Player movement and jumping
+- Configurable game settings through a JSON file
+- Sound effects and background music
+- Animations for player character
+- Responsive design that works on different screen sizes
+
 ## How to Play
 
-TODO
+1. Navigate to the `game` directory
+2. Install dependencies with `npm install`
+3. Start the development server with `npm run dev`
+4. Use arrow keys to move and jump
 
 ### Characters
 
@@ -19,18 +35,29 @@ TODO
 - **Cake**: A sweet character that loves to eat and share treats with others.
 - **Triscuit**: A crunchy character that loves to snack and has a knack for finding hidden treasures.
 
+## Configuration
+
+The game can be customized by editing the `game/public/game-config.json` file. This allows you to change:
+
+- Screen dimensions
+- Physics properties
+- Player properties (speed, jump force, etc.)
+- Platform positions
+- Audio settings
+
 ## Tasks
 
+- [x] Implement basic phaser template
+- [x] Implement basic game mechanics
+- [x] Implement basic game loop
+- [x] Implement basic game objects
+- [x] Implement basic game UI
+- [x] Implement basic game sounds
+- [x] Implement basic game music
+- [x] Implement basic game animations
+- [x] Set up configuration file that allows for anyone to override. Include animation files, sound files, character, ability and music
 - [ ] Rewrite character descriptions and add abilities
-- [ ] Implement basic phaser template
-- [ ] Implement basic game mechanics
-- [ ] Implement basic game loop
-- [ ] Implement basic game objects
-- [ ] Implement basic game UI
-- [ ] Implement basic game sounds
-- [ ] Implement basic game music
 - [ ] Implement character switching
-- [ ] Implement basic game animations
 - [ ] Design pixel art for Eli
 - [ ] Design pixel animation for Eli
 - [ ] Design pixel art for Umbra
